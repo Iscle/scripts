@@ -18,7 +18,7 @@ if [[ -f ${AK2}/zImage ]]; then
 
     cd ${AK2}
     zip -r9 "AceKernel-stock.zip" -x README.md -- *
-    curl --upload-file ./AceKernel-stock.zip https://transfer.sh/AceKernel
+    curl --upload-file ./AceKernel-stock.zip https://transfer.sh/AceKernel.zip
 else
     exit 0
 fi
