@@ -4,14 +4,14 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=AceKernel by Martichou @ Github
+kernel.string=AceKernel by Martichou & Iscle @ Github
 do.devicecheck=1
 do.modules=0
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=maguro
-device.name2=potter
-device.name3=potter_retail
+device.name1=oxygen
+device.name2=
+device.name3=
 '; } # end properties
 
 # shell variables
